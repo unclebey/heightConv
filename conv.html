@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="conv.css">
+  <script src="conv.js" defer></script>
+</head> 
+<body>
+  <div class="app">
+    <div class="header">
+ <h1 >Height Converter</h1>
+    </div>
+   
+
+<div>
+  <div class="input">
+    <label>Select Variable</label>
+    <select id="inputUnit">
+       <option value="" id="unit">-- Select a unit --</option>
+      <option value="meter" id="meter"> Meter </option>
+      <option value="feet" id="feet"> Feet</option>
+      <option value="cm" id="cm">Centimeter</option>
+      <option value="inches" id="inches">Inches</option>
+
+    </select>
+  </form>
+
+<input type="number" placeholder="Enter a Value" id="input">
+  </div>
+    <div class="ouput">
+    
+  <form>
+    <label>Select Variable</label>
+    <select id="outputUnit">
+      <option value="" id="unit">-- Select a unit --</option>
+      <option value="meter" id="meter"> Meter </option>
+      <option value="feet" id="feet"> Feet</option>
+      <option value="cm" id="cm">Centimeter</option>
+      <option value="inches" id="inches">Inches</option>
+
+    </select>
+  </form>
+      <button id="convert" >Convert</button>
+      <input type="text" placeholder="result" id="display">
+  </div>
+   
+
+
+</div>
+
+  </div>
+</body>
+</html>
